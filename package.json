@@ -9,7 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "build": "metro build"
+    "build": "npx expo export"
   },
 
 
