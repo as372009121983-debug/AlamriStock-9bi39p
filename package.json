@@ -9,8 +9,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "build": "expo export --platform web"
+    "build": "metro build"
   },
+
 
   "dependencies": {
     "@expo/metro-runtime": "5.0.4",
