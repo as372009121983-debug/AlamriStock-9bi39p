@@ -20,7 +20,6 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
       "favicon": "./assets/images/logo.png"
     },
     "plugins": [
@@ -35,9 +34,6 @@
         }
       ],
       "expo-web-browser"
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
+    ]
   }
 }
