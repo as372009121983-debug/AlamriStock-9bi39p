@@ -1,5 +1,4 @@
 {
-  "framework": "expo",
   "cleanUrls": true,
   "rewrites": [
     {
