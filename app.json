@@ -18,12 +18,11 @@
       },
       "edgeToEdgeEnabled": true
     },
-       "web": {
+    "web": {
       "bundler": "metro",
-      "output": "static",
+      "baseUrl": "",
       "favicon": "./assets/images/logo.png"
     },
-
     "plugins": [
       "expo-router",
       [
