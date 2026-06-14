@@ -1,9 +1,7 @@
 {
   "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/$1"
-    }
-  ]
+  "framework": null,
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npx expo export --platform web --clear || true",
+  "outputDirectory": "dist"
 }
